@@ -1,5 +1,6 @@
 #AddNumber  
-is a file that allow you to do addition of numbers no matter the type of data.  
+functions that allow you to addition numbers and array of numbers.   
 
-additionNumbers function return the sum of two numbers
-additionArray function return the sum of array with numbers.
+additionArray function return the sum of array of numbers.  
+additionNumbers function return the sum of two numbers.  
+ 
