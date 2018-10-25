@@ -1,4 +1,4 @@
-const F = require('./AddNumber');
+const F = require('./');
 
 describe('AddNumber', function() {
     test('additionArray return the sum of array of numbers', () => {

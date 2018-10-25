@@ -1,4 +1,4 @@
-const F = require('./RandomNumber');
+const F = require('./');
 
 describe('RandomNumber', function() {
     test('random return random number between 0 and 1', () => {

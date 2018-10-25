@@ -1,0 +1,13 @@
+h1 {
+    color: #27aedb;
+    text-align: center;
+}
+.main {
+    width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.example {
+    border: 1px solid #ccc;
+}
