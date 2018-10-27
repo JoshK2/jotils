@@ -4,7 +4,7 @@ function additionNumbers(a, b) {
 }
 
 function additionArray(array) {
-    return array.reduce((a, b) => a + b, 0);
+    return array.reduce((a, b) => additionNumbers(a, b), 0);
 }
 
 module.exports = {

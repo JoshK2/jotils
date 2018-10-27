@@ -8,7 +8,9 @@
     "react-scripts": "2.0.5"
   },
   "jest": {
-    "testPathIgnorePatterns": ["build"]
+    "testPathIgnorePatterns": [
+      "build"
+    ]
   },
   "scripts": {
     "start": "react-scripts start",
