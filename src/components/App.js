@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
-import AddNumberExamples from '../examples/AddNumber';
-import RandomNumberExample from '../examples/RandomNumber';
+import {AddNumberExamples, RandomNumberExamples} from '../examples/';
 
 class App extends Component {
     render() {
@@ -9,7 +8,7 @@ class App extends Component {
             <div className="main">
                 <h1>Math Number Functions!</h1>
                 <AddNumberExamples/>
-                <RandomNumberExample/>
+                <RandomNumberExamples/>
             </div>
         );
     }

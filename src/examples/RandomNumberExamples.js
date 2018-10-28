@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import RandomNumber from '../components/RandomNumber';
+import {RandomNumber} from '../components/';
 
 class RandomNumberExamples extends Component {
     render() {

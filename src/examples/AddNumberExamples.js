@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import AddNumber from '../components/AddNumber';
+import {AddNumber} from '../components/';
 
 class AddNumberExamples extends Component {
     render() {
