@@ -3,7 +3,7 @@
 MathNumberFunctions is a utils library for manipulate numbers in you project.
 
 
-## Usage
+## Usage Examples
 
 ```react
 import React, { Component } from 'react';
