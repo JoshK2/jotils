@@ -3,11 +3,13 @@
  import randomValueFromArray from './randomValueFromArray';
  import sumArray from './sumArray';
  import sumTwo from './sumTwo';
+ import shuffleArray from './shuffleArray';
 
  export { 
     random,
     randomBetween,
     randomValueFromArray,
     sumArray,
-    sumTwo
+    sumTwo,
+    shuffleArray
  };

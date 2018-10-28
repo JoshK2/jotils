@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
-import { SumExamples, RandomExamples } from '../examples';
+import { SumExamples, RandomExamples, ShuffleArrayExamples } from '../examples/';
 
 class App extends Component {
     render() {
@@ -9,6 +9,7 @@ class App extends Component {
                 <h1>Math Functions!</h1>
                 <SumExamples/>
                 <RandomExamples/>
+                <ShuffleArrayExamples/>
             </div>
         );
     }
