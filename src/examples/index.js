@@ -1,9 +1,8 @@
 
-import AddNumberExamples from './AddNumberExamples';
-import RandomNumberExamples from './RandomNumberExamples';
+import SumExamples from './sumExamples';
+import RandomExamples from './randomExamples';
 
 export { 
-    AddNumberExamples,
-    RandomNumberExamples
+    SumExamples,
+    RandomExamples
  };
-

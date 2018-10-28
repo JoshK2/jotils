@@ -1,9 +1,13 @@
+ import random from './random';
+ import randomBetween from './randomBetween';
+ import randomValueFromArray from './randomValueFromArray';
+ import sumArray from './sumArray';
+ import sumTwo from './sumTwo';
 
-import AddNumber from './AddNumber';
-import RandomNumber from './RandomNumber';
-
-export { 
-    AddNumber,
-    RandomNumber
+ export { 
+    random,
+    randomBetween,
+    randomValueFromArray,
+    sumArray,
+    sumTwo
  };
-

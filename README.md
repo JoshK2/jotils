@@ -1,6 +1,6 @@
-# MathNumberFunctions ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
+# MathFunctions ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
-MathNumberFunctions is a utils library for manipulate numbers in you project.
+MathFunctions is a utils library for manipulate numbers in you project.
 
 
 ## Usage

@@ -9,7 +9,7 @@
   },
   "jest": {
     "testPathIgnorePatterns": [
-      "build"
+      "build", "dist"
     ]
   },
   "scripts": {

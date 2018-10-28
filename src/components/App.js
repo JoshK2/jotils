@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
-import {AddNumberExamples, RandomNumberExamples} from '../examples/';
+import { SumExamples, RandomExamples } from '../examples';
 
 class App extends Component {
     render() {
         return (
             <div className="main">
-                <h1>Math Number Functions!</h1>
-                <AddNumberExamples/>
-                <RandomNumberExamples/>
+                <h1>Math Functions!</h1>
+                <SumExamples/>
+                <RandomExamples/>
             </div>
         );
     }
