@@ -1,7 +1,15 @@
-# MathNumberFunctions ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
+# jotils ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
-MathNumberFunctions is a utils library for manipulate numbers in you project.
+jotils is a JavaScript utility library.
 
+## Installation
+
+Using [npm](https://www.npmjs.com/package/jotils) to install jotils.
+
+```bash
+$ npm i -g npm
+$ npm i --save jotils
+```
 
 ## Usage Examples
 
