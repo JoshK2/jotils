@@ -1,8 +1,24 @@
 {
   "name": "jotils",
   "version": "0.0.4",
-  "main": "index.js",
+  "main": "build/index.js",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshK2/jotils"
+  },
+  "keywords": [
+    "npm",
+    "utils",
+    "utility",
+    "javascript"
+  ],
+  "author": "JoshK2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoshK2/jotils/issues"
+  },
+  "homepage": "https://joshk2.github.io/jotils/", 
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
