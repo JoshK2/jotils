@@ -9,6 +9,6 @@ import random from '../random';
  * shuffleArray([1,2,3]) // => [3,1,2]
 */
 export default function shuffleArray(_array) {
-    var array = [].concat(_array);
+    let array = [].concat(_array);
     return array.sort(() => random() - 0.5);
 }
