@@ -1,7 +1,7 @@
 {
   "name": "jotils",
   "version": "0.0.2",
-  "main": "jotils.js",
+  "main": "index.js",
   "private": false,
   "dependencies": {
     "react": "^16.5.2",
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "babel src/components/index.js -d build",
+    "build": "babel src/components -d build",
     "test": "jest",
     "eject": "react-scripts eject"
   },
