@@ -11,7 +11,9 @@
     "npm",
     "utils",
     "utility",
-    "javascript"
+    "javascript",
+    "modules",
+    "react"
   ],
   "author": "JoshK2",
   "license": "MIT",
