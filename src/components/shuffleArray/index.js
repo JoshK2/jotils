@@ -1,18 +1,14 @@
+import random from '../random';
+
 /**
-@description
-return shuffle array
+ * @description
+ * shuffles an array and returns an new array
+ * @param {any[]} array an array to shuffle
+ * @returns {any[]} shuffled array
+ * @example
+ * shuffleArray([1,2,3]) // => [3,1,2]
 */
-export default function shuffle(array) {
-    var currentIndex = array.length, temporaryValue, randomIndex;
-    // While there remain elements to shuffle...
-    while (0 !== currentIndex) {
-        // Pick a remaining element...
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex -= 1;
-        // And swap it with the current element.
-        temporaryValue = array[currentIndex];
-        array[currentIndex] = array[randomIndex];
-        array[randomIndex] = temporaryValue;
-    }
-    return array;
+export default function shuffleArray(_array) {
+    var array = [].concat(_array);
+    return array.sort(() => random() - 0.5);
 }
