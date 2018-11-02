@@ -17,10 +17,8 @@ $ npm i --save jotils
 import {shuffleArray, randomValueFromArray} from 'jotils';
 
 const array = [1,2,3,4,5,6,7,8,9];
-
-randomValueFromArray(array);
-shuffleArray(array);
-
+const shuffledArray = shuffleArray(array);
+const randomValue = randomValueFromArray(array);
 ```
 
 ## Contributing
