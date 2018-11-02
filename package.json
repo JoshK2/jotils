@@ -21,11 +21,7 @@
     "url": "https://github.com/JoshK2/jotils/issues"
   },
   "homepage": "https://joshk2.github.io/jotils/",
-  "dependencies": {
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-scripts": "2.0.5"
-  },
+  "dependencies": {},
   "jest": {
     "testPathIgnorePatterns": [
       "build",
@@ -33,20 +29,9 @@
     ]
   },
   "scripts": {
-    "start": "react-scripts start",
     "build": "babel src/components -d build",
-    "test": "jest",
-    "eject": "react-scripts eject"
+    "test": "jest"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
