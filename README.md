@@ -18,7 +18,15 @@ import {shuffleArray, randomValueFromArray} from 'jotils';
 
 const array = [1,2,3,4,5,6,7,8,9];
 const shuffledArray = shuffleArray(array);
-const randomValue = randomValueFromArray(array);
+const randomValue = randomValueFromArray(array); 
+```
+
+```react
+const jotils = require('jotils');
+
+const array = [1,2,3,4,5,6,7,8,9];
+const shuffledArray = jotils.shuffleArray(array);
+const randomValue = jotils.randomValueFromArray(array); 
 ```
 
 ## Contributing
