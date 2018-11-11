@@ -4,6 +4,7 @@
  import sumArray from './sumArray';
  import sumTwo from './sumTwo';
  import shuffleArray from './shuffleArray';
+ import removeDuplicatesInArray from './removeDuplicatesInArray';
 
  export { 
     random,
@@ -11,5 +12,6 @@
     randomValueFromArray,
     sumArray,
     sumTwo,
-    shuffleArray
+    shuffleArray,
+    removeDuplicatesInArray
  };
