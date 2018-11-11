@@ -5,6 +5,9 @@
  import sumTwo from './sumTwo';
  import shuffleArray from './shuffleArray';
  import removeDuplicatesInArray from './removeDuplicatesInArray';
+ import isBoolean from './isBoolean';
+ import isUndefined from './isUndefined';
+ import isObject from './isObject';
 
  export { 
     random,
@@ -13,5 +16,8 @@
     sumArray,
     sumTwo,
     shuffleArray,
-    removeDuplicatesInArray
+    removeDuplicatesInArray,
+    isBoolean,
+    isUndefined,
+    isObject
  };
