@@ -1,7 +1,8 @@
 /**
  * Linearly interpolates between two values using the formula: (min + max - min) * amount.
  * Passing amount a value of 0 will cause min to be returned, passing 1 will cause max to be returned.
- * Trying to pass an amount greater than 1 or lesser than 0 will return
+ * Trying to pass an amount greater than 1 or lesser than 0 will return.
+ *
  * @see {@link https://en.wikipedia.org/wiki/Linear_interpolation|Linear Interpolation on Wikipedia} for further information
  *
  * @param {number} min Source value.
