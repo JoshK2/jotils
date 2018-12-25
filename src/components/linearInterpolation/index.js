@@ -21,6 +21,5 @@
  export default function linearInterpolation(min, max, amount) {
     // Make sure the amount is between 0 and 1.
     amount = Math.max(Math.min(1, amount), 0);
-
     return min + (max - min) * amount;
 }
