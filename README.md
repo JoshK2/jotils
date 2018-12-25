@@ -4,7 +4,7 @@ jotils is a JavaScript utility library.
 
 ## Installation
 
-Using [npm](https://www.npmjs.com/package/jotils) to install jotils.
+Using [npm](https://www.npmjs.com/package/jotils) to install jotils.  
 Using [bit](https://bitsrc.io/joshk/jotils) to install the functions separately without having to install the whole project.
 
 ```bash
