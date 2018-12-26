@@ -7,7 +7,6 @@
  * @example
  * removeValueFromArray([1,2,3], 1) // => [2, 3]
 */
-
 export default function removeValueFromArray(array, value) {
     return array.filter(e => e != value);
 }
