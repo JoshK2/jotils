@@ -4,7 +4,7 @@
  * @param {string} dir path to get all the files
  * @returns {string[]} array of files
  * @example 
- * getAllFiles('../') // => ['{path}/getAllFiles/index.js', '{path}/getAllFiles/test.js']
+ * getAllFiles('{path}/getAllFiles') // => ['{path}/getAllFiles/index.js', '{path}/getAllFiles/test.js']
  */
 import fs from 'fs';
 import path from 'path';
