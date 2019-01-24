@@ -6,6 +6,6 @@ describe('getAllFiles', function() {
         expect(getAllFiles(`${currentPath}/src/components/getAllFiles`)).toEqual([
             `${currentPath}/src/components/getAllFiles/index.js`,
             `${currentPath}/src/components/getAllFiles/test.js`
-        ], "the files array is not incorect");
+        ], "the files array is incorect");
     });
 });
