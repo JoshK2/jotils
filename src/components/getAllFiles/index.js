@@ -6,8 +6,8 @@
  * @example 
  * getAllFiles('{path}/getAllFiles') // => ['{path}/getAllFiles/index.js', '{path}/getAllFiles/test.js']
  */
-import fs from 'fs';
-import path from 'path';
+const fs = require('fs');
+const path = require('path');
 
 const getAllFiles = dir =>
     fs.readdirSync(dir).reduce((files, file) => {

@@ -6,7 +6,7 @@
  * @example 
  * getSourceFile('{path}/getSourceFile/test-help.txt') // => text to be returned
  */
-import fs from 'fs';
+const fs = require('fs');
 
 export default function getSourceFile(path) {
     const fileData = fs.readFileSync(`${path}`).toString();

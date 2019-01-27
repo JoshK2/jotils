@@ -14,16 +14,14 @@ $ npm i --save jotils
 
 ## Usage Examples
 
-```react
-import * as J from 'jotils';
-
-const uniqueArray = J.removeDuplicatesInArray([1,2,3,1,3]);
+In Node.js:
+```js
+const J = require('jotils');
 ```
-You can manually pick methods like the following, which would only grab the parts necessary for `removeDuplicatesInArray` to work:
-```react
-import removeDuplicatesInArray from 'jotils/src/components/removeDuplicatesInArray';
 
-const uniqueArray = removeDuplicatesInArray([1,2,3,1,3]);
+You can manually pick methods like the following, which would only grab the parts necessary for `getAllFiles` to work:
+```js
+const getAllFiles = require('jotils/build/getAllFiles');
 ```
 
 ## Contributing
