@@ -4,9 +4,12 @@
  * @param {string} string value 
  * @returns {number} number
  * @example
- * const str = 'abcd';
- * letterCount(str, 'a') // => 1
- * letterCount(str, 'A', false) // => 1
+ * import letterCount from '@bit/joshk.jotils.letter-count'
+ * export default letterCount('abcd', 'a') // => 1
+ * 
+ * @example
+ * import letterCount from '@bit/joshk.jotils.letter-count'
+ * export default letterCount('abcd', 'A', false) // => 1
 */
 import isString from '../isString';
 

@@ -21,3 +21,4 @@ export { default as shuffleArray } from './shuffleArray';
 export { default as sumArray } from './sumArray';
 export { default as sumTwo } from './sumTwo';
 export { default as getRandomColor } from './getRandomColor';
+export { default as getFileExtension } from './getFileExtension';

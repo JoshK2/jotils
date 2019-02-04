@@ -4,7 +4,8 @@
  * @param {number[]} array an array of numbers
  * @returns {number} sum of numbers
  * @example
- * sumArray([1,2,3]) // => 6
+ * import sumArray from '@bit/joshk.jotils.sum-array'
+ * export default sumArray([1,2,3]) // => 6
 */
 import sumTwo from '../sumTwo';
 

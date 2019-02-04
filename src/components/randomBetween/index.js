@@ -5,7 +5,8 @@
  * @param {number} max maximum number to random
  * @returns {number} random number
  * @example
- * randomBetween(1, 10) // => 7
+ * import randomBetween from '@bit/joshk.jotils.random-between'
+ * export default randomBetween(1, 10) // => 7
 */
 export default function randomBetween(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;

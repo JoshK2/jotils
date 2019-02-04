@@ -9,14 +9,13 @@
  * @param {number} max Destination value.
  * @param {number} amount Value between 0 - 1.
  * @returns {number} Interpolated value.
- *
  * @example
- * // returns 5
- * linearInterpolation(0, 10, .5)
+ * import linearInterpolation from '@bit/joshk.jotils.linear-interpolation'
+ * export default linearInterpolation(0, 10, .5) // return 5
  *
- * @example
- * // returns 4
- * linearInterpolation(0, 5, .8)
+ * @example 
+ * import linearInterpolation from '@bit/joshk.jotils.linear-interpolation'
+ * export default linearInterpolation(0, 5, .8) // return 4
  */
  export default function linearInterpolation(min, max, amount) {
     // Make sure the amount is between 0 and 1.

@@ -4,7 +4,8 @@
  * @param {any[]} array an array to shuffle
  * @returns {any[]} shuffled array
  * @example
- * shuffleArray([1,2,3]) // => [3,1,2]
+ * import shuffleArray from '@bit/joshk.jotils.shuffle-array'
+ * export default shuffleArray([1,2,3]) // => [3,1,2]
 */
 import random from '../random';
 

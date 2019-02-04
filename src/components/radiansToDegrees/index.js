@@ -3,10 +3,9 @@
  *
  * @param {number} Angle in radians.
  * @returns {number} Angle in degrees.
- *
  * @example
- * // returns 180
- * radiansToDegrees(Math.PI);
+ * import radiansToDegrees from '@bit/joshk.jotils.radians-to-degrees'
+ * export default radiansToDegrees(Math.PI); // returns 180
  */
 export default function radiansToDegrees(angle) {
     return angle * 180 / Math.PI;

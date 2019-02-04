@@ -1,9 +1,10 @@
 /**
  * @description
  * function that retrun random color
- * @returns {string} hex color
- * @example 
- * getRandomColor() // => #A384E7
+ * @returns {string} hex color 
+ * @example
+ * import getRandomColor from '@bit/joshk.jotils.get-random-color'
+ * export default getRandomColor() // => #A384E7
  */
 export default function getRandomColor() {
   var letters = '0123456789ABCDEF';
