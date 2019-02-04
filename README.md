@@ -1,4 +1,4 @@
-# jotils ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
+# jotils ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg) [![npm module](https://badge.fury.io/js/jotils.svg)](https://www.npmjs.com/package/jotils)
 
 jotils is a JavaScript utility library.
 
