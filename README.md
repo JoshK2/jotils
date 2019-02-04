@@ -5,11 +5,19 @@ jotils is a JavaScript utility library.
 ## Installation
 
 Using [npm](https://www.npmjs.com/package/jotils) to install jotils.  
+
+```bash
+$ npm i --save jotils
+```
+
 Using [bit](https://bitsrc.io/joshk/jotils) to install the functions separately without having to install the whole project.
 
 ```bash
-$ npm i -g npm
-$ npm i --save jotils
+$ npm i @bit/joshk.jotils.letter-count
+```
+
+```js
+const letterCount = require('@bit/joshk.jotils.letter-count');
 ```
 
 ## Usage Examples
