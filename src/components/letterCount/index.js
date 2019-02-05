@@ -13,10 +13,10 @@
 */
 import isString from '../isString';
 
-export default function letterCount(str, letter, casesensitive = true) {
+export default function letterCount(str, letter, ignorecasesensitive = true) {
     if(isString(str) == false)
         return 'the value is not string';
     
-    const rgx = new RegExp(letter, casesensitive == true ? 'g':'gi');
+    const rgx = new RegExp(letter, ignorecasesensitive == true ? 'gi':'g');
     return str.split(rgx).length -1;
 }

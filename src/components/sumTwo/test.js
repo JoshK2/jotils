@@ -1,7 +1,9 @@
-const sumTwo = require('./').default;
+import assert from 'assert';
+import sumTwo from './';
 
-describe('sumTwo', function() {
-    test('sumTwo return the sum of two numbers', () => {
-        expect(sumTwo(1,2)).toBe(3);
+describe('sumTwo', function () {
+    it('return the sum of two numbers', () => {
+        const result = sumTwo(1, 2);
+        assert(result === 3);
     });
 });

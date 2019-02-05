@@ -1,11 +1,20 @@
-const isString = require('./').default;
+import assert from 'assert';
+import isString from './';
 
-describe('isString', function() {
-    test('isString function return true if value is string and false if is not', () => {
-        expect(isString(1)).toEqual(false, "the value is not string and the function retrun that is string");
-        expect(isString("1")).toEqual(true, "the value is string and the function retrun that is not string");
-        expect(isString([])).toEqual(false, "the value is not string and the function retrun that is string");
-        expect(isString({})).toEqual(false, "the value is not string and the function retrun that is string");
+describe('isString', function () {
+    it('check is string with string', () => {
+        assert(isString("1") === true);
+    });
+    it('check is string with array', () => {
+        assert(isString([]) === false);
+    });
+    it('check is string with object', () => {
+        assert(isString({}) === false);
+    });
+    it('check is string with undefined', () => {
+        assert(isString(undefined) === false);
+    });
+    it('check is string with number', () => {
+        assert(isString(1) === false);
     });
 });
-

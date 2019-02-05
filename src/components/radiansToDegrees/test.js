@@ -1,7 +1,9 @@
-const radiansToDegrees = require('./').default;
+import assert from 'assert';
+import radiansToDegrees from './';
 
-describe('radiandToDegrees', function() {
-    test('Converts Pi radians to 180 degrees', () => {
-        expect(radiansToDegrees(Math.PI)).toBe(180);
+describe('radiandToDegrees', function () {
+    it('Converts Pi radians to 180 degrees', () => {
+        const result = radiansToDegrees(Math.PI);
+        assert(result === 180);
     });
 });

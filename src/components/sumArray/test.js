@@ -1,8 +1,10 @@
-const sumArray = require('./').default;
+import assert from 'assert';
+import sumArray from './';
 
-describe('sumArray', function() {
-    test('sumArray return the sum of array of numbers', () => {
-        expect(sumArray([1,2,3])).toBe(6);
+describe('sumArray', function () {
+    it('return the sum in array of numbers', () => {
+        const result = sumArray([1, 2, 3]);
+        assert(result === 6);
     });
 });
 

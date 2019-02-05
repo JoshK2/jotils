@@ -1,11 +1,17 @@
-const isBoolean = require('./').default;
+import assert from 'assert';
+import isBoolean from './';
 
-describe('isBoolean', function() {
-    test('isBoolean function return true or false if value is boolean or not', () => {
-        expect(isBoolean(true)).toEqual(true, "the value is boolean and the function retrun that is not boolean");
-        expect(isBoolean("true")).toEqual(false, "the value is not boolean and the function retrun that is boolean");
-        expect(isBoolean(false)).toEqual(true, "the value is boolean and the function retrun that is not boolean");
-        expect(isBoolean("false")).toEqual(false, "the value is not boolean and the function retrun that is boolean");
+describe('isBoolean', function () {
+    it('check is boolean with true', () => {
+        assert(isBoolean(true) === true);
+    });
+    it('check is boolean with "true"', () => {
+        assert(isBoolean("true") === false);
+    });
+    it('check is boolean with false', () => {
+        assert(isBoolean(false) === true);
+    });
+    it('check is boolean with "false"', () => {
+        assert(isBoolean("false") === false);
     });
 });
-

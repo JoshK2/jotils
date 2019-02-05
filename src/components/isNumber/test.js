@@ -1,11 +1,17 @@
-const isNumber = require('./').default;
+import assert from 'assert';
+import isNumber from './';
 
-describe('isNumber', function() {
-    test('isNumber function return true or false if value is number or not', () => {
-        expect(isNumber(1)).toEqual(true, "the value is number and the function retrun that is not number");
-        expect(isNumber("1")).toEqual(false, "the value is not number and the function retrun that is number");
-        expect(isNumber(1.2)).toEqual(true, "the value is number and the function retrun that is not number");
-        expect(isNumber("1.2")).toEqual(false, "the value is not number and the function retrun that is number");
+describe('isNumber', function () {
+    it('check is number with number', () => {
+        assert(isNumber(1) === true);
+    });
+    it('check is number with string', () => {
+        assert(isNumber("1") === false);
+    });
+    it('check is number with double', () => {
+        assert(isNumber(1.2) === true);
+    });
+    it('check is number with double in string', () => {
+        assert(isNumber("1.2") === false);
     });
 });
-

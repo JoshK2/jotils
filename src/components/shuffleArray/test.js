@@ -1,8 +1,9 @@
-const shuffleArray = require('./').default;
+import assert from 'assert';
+import shuffleArray from './';
 
-describe('shuffleArray', function() {
-    test('return shuffle array', () => {
-        expect(shuffleArray([1,2,3])).toHaveLength(3, 'the length of the shuffle array is not like the original array');
+describe('shuffleArray', function () {
+    it('return shuffle array', () => {
+        const result = shuffleArray([1, 2, 3]);
+        assert(result.length === 3 && result.includes(1) && result.includes(2) && result.includes(3));
     });
 });
-

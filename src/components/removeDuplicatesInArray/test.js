@@ -1,9 +1,13 @@
-const removeDuplicatesInArray = require('./').default;
+import assert from 'assert';
+import removeDuplicatesInArray from './';
 
 describe('removeDuplicatesInArray', function() {
-    test('removeDuplicatesInArray function return an array without duplicates value', () => {
-        expect(removeDuplicatesInArray([1, 2, 3, 1, 3])).toEqual([1, 2, 3], "remove duplicates not working on numbers");
-        expect(removeDuplicatesInArray(["1", "2", "3", "1", "3"])).toEqual(["1", "2", "3"], "remove duplicates not working on string");
+    it('return an array without duplicates value, number type', () => {
+        const result = removeDuplicatesInArray([1, 2, 3, 1, 3]);
+        assert(result.sort().toString() === [1, 2, 3].sort().toString());
+    });
+    it('return an array without duplicates value, string type', () => {
+        const result = removeDuplicatesInArray(["1", "2", "3", "1", "3"]);
+        assert(result.sort().toString() === ["1", "2", "3"].sort().toString());
     });
 });
-

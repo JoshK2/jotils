@@ -1,11 +1,19 @@
-const letterCount = require('./').default;
+import assert from 'assert';
+import letterCount from './';
 
 const str = 'abcd';
 
-describe('letterCount', function() {
-    test('letterCount function return the number of time that character appears in a string', () => {
-        expect(letterCount(str, 'a')).toEqual(1, "the number of time is not 1");
-        expect(letterCount(str, 'A', false)).toEqual(1, "the number of time is not 1");
+describe('letterCount', function () {
+    it('return the number of time that character appears in a string', () => {
+        const result = letterCount(str, 'a');
+        assert(result === 1);
+    });
+    it('return the number of time that character appears in a string with no casesensitive', () => {
+        const result = letterCount(str, 'A', true);
+        assert(result === 1);
+    });
+    it('return the number of time that character appears in a string with casesensitive', () => {
+        const result = letterCount(str, 'A', false);
+        assert(result === 0);
     });
 });
-

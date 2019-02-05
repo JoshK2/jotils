@@ -1,9 +1,9 @@
-const randomBetween = require('./').default;
+import assert from 'assert';
+import randomBetween from './';
 
-describe('randomBetween', function() {
-    test('randomBetween function return random number between min and max parameters', () => {
-        expect(randomBetween(10, 15)).toBeGreaterThanOrEqual(10, "is not greater or equal than 10");
-        expect(randomBetween(10, 15)).toBeLessThanOrEqual(15, "is not greater or equal than 15");
+describe('randomBetween', function () {
+    it('return random number between min and max parameters', () => {
+        const result = randomBetween(10, 15);
+        assert(result >= 10 && result <= 15);
     });
 });
-

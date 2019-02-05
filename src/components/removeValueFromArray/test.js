@@ -1,9 +1,18 @@
-const removeValueFromArray = require('./').default;
+import assert from 'assert';
+import removeValueFromArray from './';
 
-describe('removeValueFromArray', function() {
-    test('removeValueFromArray function return an array after remove value', () => {
-        expect(removeValueFromArray([1, 2, 3, 1, 3], 3)).toEqual([1, 2, 1], "remove specific value not working on numbers");
-        expect(removeValueFromArray(["1", "2", "3", "1", "3"], "1")).toEqual(["2", "3", "3"], "remove specific value not working on string");
+describe('removeValueFromArray', function () {
+    it('return an array after remove value, number type', () => {
+        const result = removeValueFromArray([1, 2, 3, 1, 3], 3);
+        assert(result.includes(3) === false);
+    });
+    it('return an array after remove value, string type', () => {
+        const result = removeValueFromArray(["1", "2", "3", "1", "3"], "1");
+        assert(result.includes("1") === false);
+    });
+    it('return an array after remove value, bool type', () => {
+        const result = removeValueFromArray([true, true, false, false, true], false);
+        assert(result.includes(false) === false);
     });
 });
 

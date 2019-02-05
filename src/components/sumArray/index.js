@@ -1,6 +1,6 @@
 /**
  * @description
- * return the sum of numbers in array
+ * return the sum in array of numbers 
  * @param {number[]} array an array of numbers
  * @returns {number} sum of numbers
  * @example

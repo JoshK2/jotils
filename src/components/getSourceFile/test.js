@@ -1,8 +1,11 @@
-const getSourceFile = require('./').default;
+import assert from 'assert';
+import getSourceFile from './';
+
 const currentPath = process.cwd();
 
-describe('getSourceFile', function() {
-    test('getSourceFile function return string of file path', () => {
-        expect(getSourceFile(`${currentPath}/src/components/getSourceFile/test-help.txt`)).toEqual('text to be returned', "the source file is incorect");
+describe('getSourceFile', function () {
+    it('return data of file', () => {
+        const result = getSourceFile(`${currentPath}/src/components/getSourceFile/test-help.txt`);
+        assert(result === 'text to be returned');
     });
 });

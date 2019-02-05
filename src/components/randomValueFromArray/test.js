@@ -1,9 +1,9 @@
-const randomValueFromArray = require('./').default;
+import assert from 'assert';
+import randomValueFromArray from './';
 
 describe('randomValueFromArray', function() {
-    test('randomValueFromArray function return random value from array', () => {
-        expect(randomValueFromArray([10, 11, 12, 13])).toBeGreaterThanOrEqual(10, "is not greater or equal than 10");
-        expect(randomValueFromArray([10, 11, 12, 13])).toBeLessThanOrEqual(13, "is not greater or equal than 13");
+    it('return random value from array', () => {
+        const result = randomValueFromArray([10, 11, 12, 13]);
+        assert(result >= 10 && result <= 13 && [10, 11, 12, 13].includes(result));
     });
 });
-
