@@ -13,9 +13,14 @@
  * export default isUniqueInArray([1, 2, 3, 1], 1) // => false
 */
 export default function isUniqueInArray(array, value) {
-    let unique = true;
+    let counter = 0;
     for (let index = 0; index < array.length; index++) {
-        unique = array[index] !== value ? true : false;
+        if(array[index] === value) {
+            counter++;
+        }
     }
-    return unique;
+    if(counter === 0) {
+        return null;
+    }
+    return counter === 1 ? true : false;
 }

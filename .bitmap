@@ -399,5 +399,23 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "joshk.jotils/is-unique-in-array@1.0.7": {
+        "files": [
+            {
+                "relativePath": "src/components/isUniqueInArray/index.js",
+                "test": false,
+                "name": "index.js"
+            },
+            {
+                "relativePath": "src/components/isUniqueInArray/test.js",
+                "test": true,
+                "name": "test.js"
+            }
+        ],
+        "mainFile": "src/components/isUniqueInArray/index.js",
+        "trackDir": "src/components/isUniqueInArray",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "version": "14.0.0"
 }
