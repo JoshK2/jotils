@@ -22,3 +22,4 @@ export { default as sumArray } from './sumArray';
 export { default as sumTwo } from './sumTwo';
 export { default as getRandomColor } from './getRandomColor';
 export { default as getFileExtension } from './getFileExtension';
+export { default as isUniqueInArray } from './isUniqueInArray';
