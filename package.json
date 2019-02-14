@@ -3,6 +3,7 @@
   "version": "1.0.5", 
   "main": "build/index.js",
   "private": false,
+  "files": ["build/**/*"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JoshK2/jotils"
