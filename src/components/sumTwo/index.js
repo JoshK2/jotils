@@ -7,7 +7,7 @@
  * @example
  * import sumTwo from '@bit/joshk.jotils.sum-two'
  * export default sumTwo(1,2) // => 3
-*/
+ */
 export default function sumTwo(a, b) {
-    return a + b;
+  return a + b;
 }

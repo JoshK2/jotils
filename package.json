@@ -31,7 +31,8 @@
   "scripts": {
     "build": "babel src/components -d build",
     "test": "mocha src/components/**/test.js --require babel-register",
-    "checkall": "npm run build & npm run test"
+    "checkall": "npm run build & npm run test",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\""
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -40,6 +41,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "prettier": "^1.16.4"
   }
 }

@@ -1,5 +1,5 @@
 /**
- * @description 
+ * @description
  * get file name from path
  * @param {string} path path to get file name
  * @returns {string} file name
@@ -8,5 +8,5 @@
  * export default getFileName('getFileName/index.js') // => index.js
  */
 export default function getFileName(path) {
-    return path.replace(/^.*[\\\/]/, '');
+  return path.replace(/^.*[\\\/]/, "");
 }

@@ -1,14 +1,14 @@
 /**
- * @description 
+ * @description
  * get source file from path
  * @param {string} path path to get source of the file
  * @returns {string} string of file
- * @example 
+ * @example
  * getSourceFile('{path}/getSourceFile/test-help.txt') // => text to be returned
  */
-const fs = require('fs');
+const fs = require("fs");
 
 export default function getSourceFile(path) {
-    const fileData = fs.readFileSync(`${path}`).toString();
-    return fileData;
+  const fileData = fs.readFileSync(`${path}`).toString();
+  return fileData;
 }

@@ -7,7 +7,7 @@
  * @example
  * import removeValueFromArray from '@bit/joshk.jotils.remove-value-from-array'
  * export default removeValueFromArray([1,2,3], 1) // => [2, 3]
-*/
+ */
 export default function removeValueFromArray(array, value) {
-    return array.filter(e => e != value);
+  return array.filter(e => e != value);
 }
