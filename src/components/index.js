@@ -23,3 +23,5 @@ export { default as sumTwo } from './sumTwo';
 export { default as getRandomColor } from './getRandomColor';
 export { default as getFileExtension } from './getFileExtension';
 export { default as isUniqueInArray } from './isUniqueInArray';
+export { default as includes } from './includes';
+export { default as arrayDiff } from './arrayDiff';
