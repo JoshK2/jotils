@@ -9,8 +9,8 @@ Using [npm](https://www.npmjs.com/package/jotils) to install jotils.
 ```bash
 $ npm i --save jotils
 ```
-
-Using [bit](https://bitsrc.io/joshk/jotils) to install the functions separately without having to install the whole project.
+## Play and install with Bit
+Using [bit](https://bitsrc.io/joshk/jotils) to play with live demo, and install the functions separately without having to install the whole project.
 
 ```bash
 $ npm i @bit/joshk.jotils.letter-count
