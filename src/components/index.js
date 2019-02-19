@@ -25,3 +25,5 @@ export { default as getFileExtension } from "./getFileExtension";
 export { default as isUniqueInArray } from "./isUniqueInArray";
 export { default as includes } from "./includes";
 export { default as arrayDiff } from "./arrayDiff";
+export { default as getLongestWord } from "./getLongestWord";
+export { default as getLongestWordLength } from "./getLongestWordLength";

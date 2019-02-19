@@ -16,7 +16,6 @@
  * import arrayDiff from '@bit/joshk.jotils.array-diff'
  * export default arrayDiff("zxc", "zxc") // => []
  */
-
 export default function arrayDiff(a1, a2) {
   var a = [],
     diff = [];
