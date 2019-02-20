@@ -27,3 +27,4 @@ export { includes } from "./includes";
 export { arrayDiff } from "./array-diff";
 export { getLongestWord } from "./get-longest-word";
 export { getLongestWordLength } from "./get-longest-word-length";
+export { asyncSleep } from "./async-sleep";
