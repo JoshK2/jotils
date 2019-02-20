@@ -1,5 +1,5 @@
 import assert from "assert";
-import {arrayDiff} from "./array-diff";
+import { arrayDiff } from "./array-diff";
 
 describe("arrayDiff", function() {
   it("check with two array", () => {

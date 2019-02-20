@@ -1,5 +1,5 @@
 import assert from "assert";
-import {getLongestWordLength} from "./get-longest-word-length";
+import { getLongestWordLength } from "./get-longest-word-length";
 
 describe("getLongestWordLength", function() {
   it("check return the longest word length", () => {

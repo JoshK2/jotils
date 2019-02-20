@@ -1,1 +1,1 @@
-export {} from './is-number'
+export { isNumber } from "./is-number";

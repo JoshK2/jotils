@@ -4,7 +4,7 @@
  * @param {string} dir path to get all the files
  * @returns {string[]} array of files
  * @example
- * getAllFiles('{path}/getAllFiles') // => ['{path}/getAllFiles/index.js', '{path}/getAllFiles/test.js']
+ * getAllFiles('{path}/getAllFiles')
  */
 const fs = require("fs");
 const path = require("path");
@@ -16,4 +16,6 @@ const getAllFiles = dir =>
     return isDirectory ? [...files, ...getAllFiles(name)] : [...files, name];
   }, []);
 
-module.exports = getAllFiles;
+module.exports = {
+  getAllFiles: getAllFiles
+};

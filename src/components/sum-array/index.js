@@ -1,1 +1,1 @@
-export {sumArray} from './sum-array'
+export { sumArray } from "./sum-array";

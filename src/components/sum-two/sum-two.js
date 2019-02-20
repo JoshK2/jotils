@@ -5,7 +5,7 @@
  * @param {number} b number to addition
  * @returns {number} sum of a and b
  * @example
- * import sumTwo from '@bit/joshk.jotils.sum-two'
+ * import { sumTwo } from '@bit/joshk.jotils.sum-two'
  * export default sumTwo(1,2) // => 3
  */
 export function sumTwo(a, b) {

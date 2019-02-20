@@ -1,5 +1,5 @@
 import assert from "assert";
-import {radiansToDegrees} from "./radians-to-degrees";
+import { radiansToDegrees } from "./radians-to-degrees";
 
 describe("radiansToDegrees", function() {
   it("Converts Pi radians to 180 degrees", () => {

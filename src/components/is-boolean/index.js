@@ -1,1 +1,1 @@
-export {isBoolean} from './is-boolean'
+export { isBoolean } from "./is-boolean";

@@ -4,14 +4,14 @@
  * @param {string} string value
  * @returns {number} number
  * @example
- * import letterCount from '@bit/joshk.jotils.letter-count'
+ * import { letterCount } from '@bit/joshk.jotils.letter-count'
  * export default letterCount('abcd', 'a') // => 1
  *
  * @example
- * import letterCount from '@bit/joshk.jotils.letter-count'
+ * import { letterCount } from '@bit/joshk.jotils.letter-count'
  * export default letterCount('abcd', 'A', false) // => 1
  */
-import isString from "../is-string/is-string";
+import { isString } from "../is-string/is-string";
 
 export function letterCount(str, letter, ignorecasesensitive = true) {
   if (isString(str) == false) return "the value is not string";

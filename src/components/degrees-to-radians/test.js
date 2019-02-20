@@ -1,5 +1,5 @@
 import assert from "assert";
-import {degreesToRadians} from "./degrees-to-radians";
+import { degreesToRadians } from "./degrees-to-radians";
 
 describe("degreesToRadians", function() {
   it("Converts 360 degrees to 2π radians", () => {

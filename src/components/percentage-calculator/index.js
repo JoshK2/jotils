@@ -1,1 +1,1 @@
-export { percentageCalculator } from './percentage-calculator'
+export { percentageCalculator } from "./percentage-calculator";

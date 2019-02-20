@@ -4,10 +4,10 @@
  * @param {any[]} array an array to shuffle
  * @returns {any[]} shuffled array
  * @example
- * import shuffleArray from '@bit/joshk.jotils.shuffle-array'
+ * import { shuffleArray } from '@bit/joshk.jotils.shuffle-array'
  * export default shuffleArray([1,2,3]) // => [3,1,2]
  */
-import random from "../random";
+import { random } from "../random";
 
 export function shuffleArray(_array) {
   let array = [].concat(_array);

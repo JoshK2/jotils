@@ -4,10 +4,10 @@
  * @param {number[]} array an array of numbers
  * @returns {number} sum of numbers
  * @example
- * import sumArray from '@bit/joshk.jotils.sum-array'
+ * import { sumArray } from '@bit/joshk.jotils.sum-array'
  * export default sumArray([1,2,3]) // => 6
  */
-import sumTwo from "../sum-two";
+import { sumTwo } from "../sum-two";
 
 export function sumArray(array) {
   return array.reduce((a, b) => sumTwo(a, b), 0);

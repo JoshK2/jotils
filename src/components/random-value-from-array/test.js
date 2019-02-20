@@ -1,5 +1,5 @@
 import assert from "assert";
-import {randomValueFromArray} from "./remove-value-from-array";
+import { randomValueFromArray } from "./remove-value-from-array";
 
 describe("randomValueFromArray", function() {
   it("return random value from array", () => {

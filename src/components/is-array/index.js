@@ -1,1 +1,1 @@
-export {isArray} from './is-array'
+export { isArray } from "./is-array";

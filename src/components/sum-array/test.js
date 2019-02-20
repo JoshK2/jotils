@@ -1,5 +1,5 @@
 import assert from "assert";
-import {sumArray} from "./sum-array";
+import { sumArray } from "./sum-array";
 
 describe("sumArray", function() {
   it("return the sum in array of numbers", () => {

@@ -1,5 +1,5 @@
 import assert from "assert";
-import {isBoolean} from "./is-boolean";
+import { isBoolean } from "./is-boolean";
 
 describe("isBoolean", function() {
   it("check is boolean with true", () => {

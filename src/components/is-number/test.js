@@ -1,5 +1,5 @@
 import assert from "assert";
-import {isNumber} from "./is-number";
+import { isNumber } from "./is-number";
 
 describe("isNumber", function() {
   it("check is number with number", () => {

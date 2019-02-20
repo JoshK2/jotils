@@ -1,5 +1,5 @@
 import assert from "assert";
-import {letterCount} from "./letter-count";
+import { letterCount } from "./letter-count";
 
 const str = "abcd";
 

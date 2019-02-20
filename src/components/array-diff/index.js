@@ -1,1 +1,1 @@
-export { arrayDiff } from './array-diff';
+export { arrayDiff } from "./array-diff";

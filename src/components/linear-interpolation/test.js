@@ -1,5 +1,5 @@
 import assert from "assert";
-import {linearInterpolation} from "./linear-interpolation";
+import { linearInterpolation } from "./linear-interpolation";
 
 describe("linearInterpolation", function() {
   it("Linearly interpolates between two values using the formula: (min + max - min) * amount", () => {

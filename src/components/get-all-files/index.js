@@ -1,1 +1,1 @@
-export {getAllFiles} from './get-all-files'
+export { getAllFiles } from "./get-all-files";

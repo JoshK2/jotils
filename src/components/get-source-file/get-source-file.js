@@ -4,7 +4,7 @@
  * @param {string} path path to get source of the file
  * @returns {string} string of file
  * @example
- * getSourceFile('{path}/getSourceFile/test-help.txt') // => text to be returned
+ * getSourceFile('{path}/get-source-file/test-help.txt') // => text to be returned
  */
 const fs = require("fs");
 

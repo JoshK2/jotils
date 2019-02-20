@@ -1,1 +1,1 @@
-export {randomBetween} from './random-between'
+export { randomBetween } from "./random-between";

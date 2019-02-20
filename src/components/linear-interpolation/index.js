@@ -1,1 +1,1 @@
-export { linearInterpolation } from './linear-interpolation'
+export { linearInterpolation } from "./linear-interpolation";

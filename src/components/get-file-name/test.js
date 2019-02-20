@@ -1,5 +1,5 @@
 import assert from "assert";
-import {getFileName} from "./get-file-name";
+import { getFileName } from "./get-file-name";
 
 describe("getFileName", function() {
   it("check javascript file", () => {
