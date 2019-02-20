@@ -1,5 +1,5 @@
 import assert from "assert";
-import percentageCalculator from "./";
+import {percentageCalculator} from "./percentage-calculator";
 
 describe("percentageCalculator", function() {
   it("calculate percentage of value inside another value", () => {

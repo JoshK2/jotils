@@ -1,5 +1,5 @@
 import assert from "assert";
-import isUniqueInArray from "./is-unique-in-array";
+import {isUniqueInArray} from "./is-unique-in-array";
 
 describe("isUniqueInArray", function() {
   it("return true when value is unique in array", () => {

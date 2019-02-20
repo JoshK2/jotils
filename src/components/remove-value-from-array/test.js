@@ -1,5 +1,5 @@
 import assert from "assert";
-import removeValueFromArray from "./";
+import {removeValueFromArray} from "./remove-value-from-array";
 
 describe("removeValueFromArray", function() {
   it("return an array after remove value, number type", () => {

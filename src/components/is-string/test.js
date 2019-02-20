@@ -1,5 +1,5 @@
 import assert from "assert";
-import isString from "./is-string";
+import {isString} from "./is-string";
 
 describe("isString", function() {
   it("check is string with string", () => {

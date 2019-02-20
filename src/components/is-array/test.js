@@ -1,5 +1,5 @@
 import assert from "assert";
-import isArray from "./";
+import {isArray} from "./is-array";
 
 describe("isArray", function() {
   it("check is array with number", () => {

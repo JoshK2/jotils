@@ -1,5 +1,5 @@
 import assert from "assert";
-import isUndefined from "./is-undefined";
+import {isUndefined} from "./is-undefined";
 
 const a = 1;
 const obj = {};

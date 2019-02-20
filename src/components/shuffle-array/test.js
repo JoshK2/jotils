@@ -1,5 +1,5 @@
 import assert from "assert";
-import shuffleArray from "./";
+import {shuffleArray} from "./shuffle-array";
 
 describe("shuffleArray", function() {
   it("return shuffle array", () => {

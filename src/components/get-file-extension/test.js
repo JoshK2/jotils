@@ -1,5 +1,5 @@
 import assert from "assert";
-import getFileExtension from "./get-file-extension";
+import {getFileExtension} from "./get-file-extension";
 
 const currentPath = process.cwd();
 

@@ -1,5 +1,5 @@
 import assert from "assert";
-import removeDuplicatesInArray from "./";
+import {removeDuplicatesInArray} from "./remove-duplicates-in-array";
 
 describe("removeDuplicatesInArray", function() {
   it("return an array without duplicates value, number type", () => {

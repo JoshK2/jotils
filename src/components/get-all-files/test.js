@@ -1,5 +1,5 @@
 import assert from "assert";
-import getAllFiles from "./get-all-files";
+import {getAllFiles} from "./get-all-files";
 
 const currentPath = process.cwd();
 

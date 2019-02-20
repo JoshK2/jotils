@@ -1,5 +1,5 @@
 import assert from "assert";
-import isObject from "./";
+import { isObject } from "./is-object";
 
 describe("isObject", function() {
   it("check is object with number", () => {

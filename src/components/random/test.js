@@ -1,5 +1,5 @@
 import assert from "assert";
-import random from "./random";
+import {random} from "./random";
 
 describe("random", function() {
   it("return random number between 0 and 1", () => {

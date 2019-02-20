@@ -1,5 +1,5 @@
 import assert from "assert";
-import sumTwo from "./sum-two";
+import {sumTwo} from "./sum-two";
 
 describe("sumTwo", function() {
   it("return the sum of two numbers", () => {

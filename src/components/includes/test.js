@@ -1,5 +1,5 @@
 import assert from "assert";
-import includes from "./includes";
+import {includes} from "./includes";
 
 describe("includes", function() {
   it("return true when value is include in array", () => {

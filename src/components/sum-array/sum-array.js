@@ -7,8 +7,8 @@
  * import sumArray from '@bit/joshk.jotils.sum-array'
  * export default sumArray([1,2,3]) // => 6
  */
-import sumTwo from "../sumTwo";
+import sumTwo from "../sum-two";
 
-export default function sumArray(array) {
+export function sumArray(array) {
   return array.reduce((a, b) => sumTwo(a, b), 0);
 }

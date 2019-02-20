@@ -11,7 +11,7 @@
  * import letterCount from '@bit/joshk.jotils.letter-count'
  * export default letterCount('abcd', 'A', false) // => 1
  */
-import isString from "../isString";
+import isString from "../is-string/is-string";
 
 export function letterCount(str, letter, ignorecasesensitive = true) {
   if (isString(str) == false) return "the value is not string";

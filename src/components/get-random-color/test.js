@@ -1,5 +1,5 @@
 import assert from "assert";
-import getRandomColor from "./";
+import {getRandomColor} from "./get-random-color";
 
 describe("getRandomColor", function() {
   it("check have #", () => {

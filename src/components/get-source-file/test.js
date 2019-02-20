@@ -1,5 +1,5 @@
 import assert from "assert";
-import getSourceFile from "./get-source-file";
+import {getSourceFile} from "./get-source-file";
 
 const currentPath = process.cwd();
 
