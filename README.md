@@ -17,7 +17,7 @@ $ npm i @bit/joshk.jotils.letter-count
 ```
 
 ```js
-const letterCount = require('@bit/joshk.jotils.letter-count');
+const { letterCount } = require('@bit/joshk.jotils.letter-count');
 ```
 
 ## Usage Examples
