@@ -29,7 +29,7 @@ const J = require('jotils');
 
 You can manually pick methods like the following, which would only grab the parts necessary for `getAllFiles` to work:
 ```js
-const getAllFiles = require('jotils/build/getAllFiles');
+const { getAllFiles } = require('jotils/build/getAllFiles');
 ```
 
 ## Contributing
