@@ -1,4 +1,4 @@
-# jotils ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg) [![npm module](https://badge.fury.io/js/jotils.svg)](https://www.npmjs.com/package/jotils)
+# jotils ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg) [![npm module](https://badge.fury.io/js/jotils.svg)](https://www.npmjs.com/package/jotils) [![bit components](https://img.shields.io/badge/dynamic/json.svg?color=6e3991&label=bit%20components&query=payload.totalComponents&url=https%3A%2F%2Fapi.bitsrc.io%2Fscope%2Fjoshk%2Fjotils)](https://bit.dev/joshk/jotils)
 
 jotils is a JavaScript utility library.
 
