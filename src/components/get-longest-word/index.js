@@ -1,1 +1,1 @@
-export { getLongestWord } from "./get-longest-word";
+export { getLongestWord } from './get-longest-word'

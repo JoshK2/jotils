@@ -13,5 +13,5 @@
  * export default includes([1, 2, 3], 4) // => false
  */
 export function includes(array, value) {
-  return array.includes(value);
+    return array.includes(value)
 }

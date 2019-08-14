@@ -6,5 +6,5 @@
  * await asyncSleep(10000) //wait 10 secondes before code continue
  */
 export async function asyncSleep(ms) {
-  await new Promise(resolve => setTimeout(resolve, ms));
+    await new Promise(resolve => setTimeout(resolve, ms))
 }

@@ -9,5 +9,5 @@
  * export default percentageCalculator(50, 100) // => 50
  */
 export function percentageCalculator(partialValue, totalValue) {
-  return (partialValue / totalValue) * 100;
+    return (partialValue / totalValue) * 100
 }

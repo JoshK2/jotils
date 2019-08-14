@@ -8,5 +8,5 @@
  * export default getFileName('getFileName/index.js') // => index.js
  */
 export function getFileName(path) {
-  return path.replace(/^.*[\\\/]/, "");
+    return path.replace(/^.*[\\\/]/, '')
 }

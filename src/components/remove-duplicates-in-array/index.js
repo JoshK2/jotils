@@ -1,1 +1,1 @@
-export { removeDuplicatesInArray } from "./remove-duplicates-in-array";
+export { removeDuplicatesInArray } from './remove-duplicates-in-array'

@@ -8,7 +8,7 @@
  * export default getFileExtension('getFileExtension/index.js') // => js
  */
 export function getFileExtension(file) {
-  var regexp = /\.([0-9a-z]+)(?:[\?#]|$)/i;
-  var extension = file.match(regexp);
-  return extension && extension[1];
+    var regexp = /\.([0-9a-z]+)(?:[\?#]|$)/i
+    var extension = file.match(regexp)
+    return extension && extension[1]
 }

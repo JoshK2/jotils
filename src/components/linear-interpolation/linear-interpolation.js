@@ -18,7 +18,7 @@
  * export default linearInterpolation(0, 5, .8) // return 4
  */
 export function linearInterpolation(min, max, amount) {
-  // Make sure the amount is between 0 and 1.
-  amount = Math.max(Math.min(1, amount), 0);
-  return min + (max - min) * amount;
+    // Make sure the amount is between 0 and 1.
+    amount = Math.max(Math.min(1, amount), 0)
+    return min + (max - min) * amount
 }

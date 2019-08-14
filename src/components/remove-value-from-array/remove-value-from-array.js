@@ -9,5 +9,5 @@
  * export default removeValueFromArray([1,2,3], 1) // => [2, 3]
  */
 export function removeValueFromArray(array, value) {
-  return array.filter(e => e != value);
+    return array.filter(e => e != value)
 }

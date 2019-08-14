@@ -20,5 +20,5 @@
  * export default isNumber("1.2") // => false
  */
 export function isNumber(value) {
-  return typeof value === "number";
+    return typeof value === 'number'
 }

@@ -20,5 +20,5 @@
  * export default isString({}) // => false
  */
 export function isString(value) {
-  return typeof value === "string" || value instanceof String;
+    return typeof value === 'string' || value instanceof String
 }

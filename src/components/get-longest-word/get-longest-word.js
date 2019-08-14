@@ -8,12 +8,12 @@
  * export default getLongestWord('abc abcd abcde') // => abcde
  */
 export function getLongestWord(text) {
-  const arrayOfWords = text.split(" ");
-  let longestWord = "";
-  arrayOfWords.forEach(word => {
-    if (word.length > longestWord.length) {
-      longestWord = word;
-    }
-  });
-  return longestWord;
+    const arrayOfWords = text.split(' ')
+    let longestWord = ''
+    arrayOfWords.forEach(word => {
+        if (word.length > longestWord.length) {
+            longestWord = word
+        }
+    })
+    return longestWord
 }

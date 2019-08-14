@@ -9,5 +9,5 @@
  * export default sumTwo(1,2) // => 3
  */
 export function sumTwo(a, b) {
-  return a + b;
+    return a + b
 }

@@ -1,1 +1,1 @@
-export { getRandomColor } from "./get-random-color";
+export { getRandomColor } from './get-random-color'

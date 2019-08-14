@@ -1,1 +1,1 @@
-export { letterCount } from "./letter-count";
+export { letterCount } from './letter-count'

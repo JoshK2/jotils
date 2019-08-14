@@ -1,1 +1,1 @@
-export { randomValueFromArray } from "./remove-value-from-array";
+export { randomValueFromArray } from './remove-value-from-array'

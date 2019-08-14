@@ -12,5 +12,5 @@
  * export default random(1, 10) // => 7
  */
 export function random(max = null) {
-  return max != null ? Math.floor(Math.random() * max + 1) : Math.random();
+    return max != null ? Math.floor(Math.random() * max + 1) : Math.random()
 }

@@ -20,5 +20,5 @@
  * export default isBoolean("false") // => false
  */
 export function isBoolean(value) {
-  return typeof value === "boolean";
+    return typeof value === 'boolean'
 }

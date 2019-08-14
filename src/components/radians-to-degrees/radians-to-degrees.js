@@ -8,5 +8,5 @@
  * export default radiansToDegrees(Math.PI); // returns 180
  */
 export function radiansToDegrees(angle) {
-  return (angle * 180) / Math.PI;
+    return (angle * 180) / Math.PI
 }

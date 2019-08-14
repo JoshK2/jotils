@@ -1,1 +1,1 @@
-export { radiansToDegrees } from "./radians-to-degrees";
+export { radiansToDegrees } from './radians-to-degrees'

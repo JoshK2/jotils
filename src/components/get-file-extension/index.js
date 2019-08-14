@@ -1,1 +1,1 @@
-export { getFileExtension } from "./get-file-extension";
+export { getFileExtension } from './get-file-extension'

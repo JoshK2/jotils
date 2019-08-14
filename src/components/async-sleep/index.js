@@ -1,1 +1,1 @@
-export { asyncSleep } from "./async-sleep";
+export { asyncSleep } from './async-sleep'

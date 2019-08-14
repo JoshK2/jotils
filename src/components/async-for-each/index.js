@@ -1,1 +1,1 @@
-export { asyncForEach } from "./async-for-each";
+export { asyncForEach } from './async-for-each'

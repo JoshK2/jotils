@@ -20,5 +20,5 @@
  * export default isObject({}) // => true
  */
 export function isObject(value) {
-  return value && typeof value === "object" && value.constructor === Object;
+    return value && typeof value === 'object' && value.constructor === Object
 }

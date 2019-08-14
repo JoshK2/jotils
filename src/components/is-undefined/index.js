@@ -1,1 +1,1 @@
-export { isUndefined } from "./is-undefined";
+export { isUndefined } from './is-undefined'

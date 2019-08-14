@@ -1,1 +1,1 @@
-export { removeValueFromArray } from "./remove-value-from-array";
+export { removeValueFromArray } from './remove-value-from-array'

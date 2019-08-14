@@ -1,1 +1,1 @@
-export { isString } from "./is-string";
+export { isString } from './is-string'
