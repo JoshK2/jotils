@@ -1,4 +1,7 @@
-# jotils ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg) [![npm module](https://badge.fury.io/js/jotils.svg)](https://www.npmjs.com/package/jotils) [![bit components](https://img.shields.io/badge/dynamic/json.svg?color=6e3991&label=bit%20components&query=payload.totalComponents&url=https%3A%2F%2Fapi.bitsrc.io%2Fscope%2Fjoshk%2Fjotils)](https://bit.dev/joshk/jotils)
+# jotils 
+[![bit components](https://img.shields.io/badge/dynamic/json.svg?color=6e3991&label=bit%20components&query=payload.totalComponents&url=https%3A%2F%2Fapi.bit.dev%2Fscope%2Fjoshk%2Fjotils)](https://bit.dev/joshk/jotils) [![npm module](https://badge.fury.io/js/jotils.svg)](https://www.npmjs.com/package/jotils) [![GitHub stars](https://img.shields.io/github/stars/joshk2/jotils)](https://github.com/JoshK2/jotils/stargazers)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/JoshK2/jotils/master/LICENSE)
+[![Twitter Follow](https://img.shields.io/twitter/follow/joshkuttler)](https://twitter.com/JoshKuttler)
 
 jotils is a JavaScript utility library.
 

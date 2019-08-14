@@ -1,6 +1,6 @@
 {
   "name": "jotils",
-  "version": "1.1.0", 
+  "version": "1.1.0",
   "main": "build/index.js",
   "private": false,
   "files": [
@@ -24,10 +24,7 @@
     "url": "https://github.com/JoshK2/jotils/issues"
   },
   "homepage": "https://joshk2.github.io/jotils/",
-  "dependencies": {
-    "fs": "0.0.1-security",
-    "path": "^0.12.7"
-  },
+  "dependencies": {},
   "scripts": {
     "build": "babel src/components -d build",
     "test": "mocha src/components/**/test.js --require @babel/register",
