@@ -1,8 +1,0 @@
-// babel-env-disable
-{
-    "presets": [
-        "@babel/preset-env",
-        "@babel/react"
-    ],
-    "ignore": []
-}

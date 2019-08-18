@@ -1,22 +1,20 @@
 {
   "name": "jotils",
-  "version": "1.1.0",
-  "main": "build/index.js",
+  "version": "2.0.0",
+  "main": "dist/index.js",
   "private": false,
   "files": [
-    "build/**/*"
+    "dist/**/*"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JoshK2/jotils"
   },
   "keywords": [
-    "npm",
     "utils",
     "utility",
     "javascript",
-    "modules",
-    "react"
+    "typescript"
   ],
   "author": "JoshK2",
   "license": "MIT",
@@ -26,21 +24,20 @@
   "homepage": "https://joshk2.github.io/jotils/",
   "dependencies": {},
   "scripts": {
-    "build": "babel src/components -d build",
-    "test": "mocha src/components/**/test.js --require @babel/register",
+    "build": "rm -rf dist && tsc",
+    "test": "ts-mocha -p tsconfig.spec.json src/components/**/test.ts",
+    "build:bit": "rm -rf dist && bit build",
+    "test:bit": "bit test",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "createindexfile": "node index-creator.js & npm run format"
+    "createindexfile": "node index-creator.js & npm run format",
+    "publish": "npm publish dist"
   },
   "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.3.4",
-    "@babel/preset-env": "^7.3.4",
-    "@babel/preset-react": "^7.0.0",
-    "@babel/register": "^7.0.0",
-    "babel-env": "^2.4.1",
-    "babel-loader": "^8.0.4",
-    "mocha": "^5.2.0",
-    "prettier": "^1.16.4",
-    "webpack": "^4.29.6"
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.7.2",
+    "mocha": "^6.2.0",
+    "ts-mocha": "^6.0.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
   }
 }
