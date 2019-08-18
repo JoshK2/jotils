@@ -566,7 +566,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "joshk.jotils/remove-duplicates-in-array@2.0.1": {
+    "joshk.jotils/remove-duplicates-in-array@2.0.2": {
         "files": [
             {
                 "relativePath": "src/components/remove-duplicates-in-array/index.ts",

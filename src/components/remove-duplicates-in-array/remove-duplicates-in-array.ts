@@ -8,6 +8,8 @@
  * export default removeDuplicatesInArray([1,2,3,1,3,4]) // => [1,2,3,4]
  */
 export function removeDuplicatesInArray(array: Array<any>): Array<any> {
-    const uniqueArray = [...new Set(array)]
+    const uniqueArray = array.filter(function(item, pos) {
+        return array.indexOf(item) == pos
+    })
     return uniqueArray
 }
