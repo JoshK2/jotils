@@ -19,6 +19,6 @@
  * import { isNumber } from '@bit/joshk.jotils.is-number'
  * export default isNumber("1.2") // => false
  */
-export function isNumber(value: any) :boolean {
+export function isNumber(value: any): boolean {
     return typeof value === 'number'
 }

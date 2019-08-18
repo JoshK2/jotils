@@ -8,6 +8,6 @@
  * import { randomBetween } from '@bit/joshk.jotils.random-between'
  * export default randomBetween(1, 10) // => 7
  */
-export function randomBetween(min:number, max:number):number {
+export function randomBetween(min: number, max: number): number {
     return Math.floor(Math.random() * (max - min + 1)) + min
 }

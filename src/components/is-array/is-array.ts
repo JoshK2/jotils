@@ -19,6 +19,6 @@
  * import { isArray } from '@bit/joshk.jotils.is-array'
  * export default isArray({}) // => false
  */
-export function isArray(value:any):boolean {
+export function isArray(value: any): boolean {
     return value && typeof value === 'object' && value.constructor === Array
 }

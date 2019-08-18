@@ -7,6 +7,6 @@
  * import getFileName from '@bit/joshk.jotils.get-file-name'
  * export default getFileName('getFileName/index.js') // => index.js
  */
-export function getFileName(path: string):string {
+export function getFileName(path: string): string {
     return path.replace(/^.*[\\\/]/, '')
 }

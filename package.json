@@ -1,10 +1,10 @@
 {
   "name": "jotils",
   "version": "2.0.0",
-  "main": "dist/index.js",
+  "main": "build/index.js",
   "private": false,
   "files": [
-    "dist/**/*"
+    "build/**/*"
   ],
   "repository": {
     "type": "git",
@@ -24,18 +24,19 @@
   "homepage": "https://joshk2.github.io/jotils/",
   "dependencies": {},
   "scripts": {
-    "build": "rm -rf dist && tsc",
+    "build": "rm -rf build && tsc",
     "test": "ts-mocha -p tsconfig.spec.json src/components/**/test.ts",
     "build:bit": "rm -rf dist && bit build",
     "test:bit": "bit test",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "createindexfile": "node index-creator.js & npm run format",
-    "publish": "npm publish dist"
+    "publish": "npm publish build"
   },
   "devDependencies": {
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.7.2",
     "mocha": "^6.2.0",
+    "prettier": "^1.18.2",
     "ts-mocha": "^6.0.0",
     "ts-node": "^8.3.0",
     "typescript": "^3.5.3"

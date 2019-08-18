@@ -9,6 +9,6 @@
  */
 import { randomBetween } from '../random-between'
 
-export function randomValueFromArray(array:Array<any>) : any {
+export function randomValueFromArray(array: Array<any>): any {
     return array[randomBetween(0, array.length - 1)]
 }

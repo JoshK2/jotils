@@ -19,6 +19,6 @@
  * import isBoolean from '@bit/joshk.jotils.is-boolean'
  * export default isBoolean("false") // => false
  */
-export function isBoolean(value:any) : boolean {
+export function isBoolean(value: any): boolean {
     return typeof value === 'boolean'
 }

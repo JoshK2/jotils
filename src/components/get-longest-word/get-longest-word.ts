@@ -7,7 +7,7 @@
  * import getLongestWord from '@bit/joshk.jotils.get-longest-word'
  * export default getLongestWord('abc abcd abcde') // => abcde
  */
-export function getLongestWord(text : string) : string {
+export function getLongestWord(text: string): string {
     const arrayOfWords = text.split(' ')
     let longestWord = ''
     arrayOfWords.forEach(word => {

@@ -11,6 +11,6 @@
  * import { random } from '@bit/joshk.jotils.random'
  * export default random(1, 10) // => 7
  */
-export function random(max?:number) : number{
+export function random(max?: number): number {
     return max ? Math.floor(Math.random() * max + 1) : Math.random()
 }

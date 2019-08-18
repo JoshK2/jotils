@@ -19,6 +19,6 @@
  * import { isString } from '@bit/joshk.jotils.is-string'
  * export default isString({}) // => false
  */
-export function isString(value:any) : boolean {
+export function isString(value: any): boolean {
     return typeof value === 'string' || value instanceof String
 }

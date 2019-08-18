@@ -6,7 +6,7 @@
  * import getRandomColor from '@bit/joshk.jotils.get-random-color'
  * export default getRandomColor() // => #A384E7
  */
-export function getRandomColor() : string {
+export function getRandomColor(): string {
     var letters = '0123456789ABCDEF'
     var color = '#'
     for (var i = 0; i < 6; i++) {

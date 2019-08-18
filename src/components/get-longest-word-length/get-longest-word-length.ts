@@ -9,7 +9,7 @@
  */
 import { getLongestWord } from '../get-longest-word'
 
-export function getLongestWordLength(text : string): number {
+export function getLongestWordLength(text: string): number {
     const longestWord = getLongestWord(text)
     return longestWord.length
 }

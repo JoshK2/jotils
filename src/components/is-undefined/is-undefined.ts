@@ -13,6 +13,6 @@
  * const obj = {};
  * export default isUndefined(obj.not_defined) // => true
  */
-export function isUndefined(value :any) : boolean {
+export function isUndefined(value: any): boolean {
     return typeof value === 'undefined'
 }

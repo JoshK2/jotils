@@ -12,6 +12,6 @@
  * import { includes } from '@bit/joshk.jotils.includes'
  * export default includes([1, 2, 3], 4) // => false
  */
-export function includes(array: Array<any>, value:any) : boolean {
+export function includes(array: Array<any>, value: any): boolean {
     return array.includes(value)
 }

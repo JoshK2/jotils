@@ -19,6 +19,6 @@
  * import { isObject } from '@bit/joshk.jotils.is-object'
  * export default isObject({}) // => true
  */
-export function isObject(value:any):boolean {
+export function isObject(value: any): boolean {
     return value && typeof value === 'object' && value.constructor === Object
 }

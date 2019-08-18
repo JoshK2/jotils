@@ -7,6 +7,6 @@
  * import { radiansToDegrees } from '@bit/joshk.jotils.radians-to-degrees'
  * export default radiansToDegrees(Math.PI); // returns 180
  */
-export function radiansToDegrees(angle: number) : number {
+export function radiansToDegrees(angle: number): number {
     return (angle * 180) / Math.PI
 }
