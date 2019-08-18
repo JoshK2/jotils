@@ -1,6 +1,6 @@
 {
   "name": "jotils",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "build/index.js",
   "private": false,
   "files": [
@@ -29,8 +29,7 @@
     "build:bit": "rm -rf dist && bit build",
     "test:bit": "bit test",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "createindexfile": "node index-creator.js & npm run format",
-    "publish": "npm publish build"
+    "createindexfile": "node index-creator.js & npm run format"
   },
   "devDependencies": {
     "@types/mocha": "^5.2.7",
