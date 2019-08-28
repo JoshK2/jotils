@@ -1,36 +1,69 @@
 # jotils 
-[![bit components](https://img.shields.io/badge/dynamic/json.svg?color=6e3991&label=bit%20components&query=payload.totalComponents&url=https%3A%2F%2Fapi.bit.dev%2Fscope%2Fjoshk%2Fjotils)](https://bit.dev/joshk/jotils) [![npm version](https://badge.fury.io/js/jotils.svg)](http://badge.fury.io/js/jotils) [![GitHub stars](https://img.shields.io/github/stars/joshk2/jotils)](https://github.com/JoshK2/jotils/stargazers)
+[![bit components](https://img.shields.io/badge/dynamic/json.svg?color=6e3991&label=bit%20components&query=payload.totalComponents&url=https%3A%2F%2Fapi.bit.dev%2Fscope%2Fjoshk%2Fjotils)](https://bit.dev/joshk/jotils) [![npm version](https://badge.fury.io/js/jotils.svg)](http://badge.fury.io/js/jotils) 
+![downloads-image](https://img.shields.io/npm/dw/jotils.svg) 
+[![GitHub stars](https://img.shields.io/github/stars/joshk2/jotils)](https://github.com/JoshK2/jotils/stargazers)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/JoshK2/jotils/master/LICENSE)
 [![Twitter Follow](https://img.shields.io/twitter/follow/joshkuttler)](https://twitter.com/JoshKuttler)
 
-jotils is a JavaScript utility library.
+jotils is a JavaScript utility library.  
+The library is published to npm as a pacakge, and also exported to a bit as a collection of components.  
+If you want to use a specific function of the project, you can do it from [here](https://bit.dev/joshk/jotils).  
 
-## Play and install with Bit
-Using [bit](https://bit.dev/joshk/jotils) to play with live demo, and install the functions separately without having to install the whole project.
+## List of components
+Every component have a live demo with docs and tests.
+- [array-diff](https://bit.dev/joshk/jotils/array-diff)
+- [async-for-each](https://bit.dev/joshk/jotils/async-for-each)
+- [async-sleep](https://bit.dev/joshk/jotils/async-sleep)
+- [create-array](https://bit.dev/joshk/jotils/create-array)
+- [degrees-to-radians](https://bit.dev/joshk/jotils/degrees-to-radians)
+- [get-file-extension](https://bit.dev/joshk/jotils/get-file-extension)
+- [get-file-name](https://bit.dev/joshk/jotils/get-file-name)
+- [get-longest-word](https://bit.dev/joshk/jotils/get-longest-word)
+- [get-longest-word-length](https://bit.dev/joshk/jotils/get-longest-word-length)
+- [get-random-color](https://bit.dev/joshk/jotils/get-random-color)
+- [includes](https://bit.dev/joshk/jotils/includes)
+- [is-array](https://bit.dev/joshk/jotils/is-array)
+- [is-boolean](https://bit.dev/joshk/jotils/is-boolean)
+- [is-number](https://bit.dev/joshk/jotils/is-number)
+- [is-object](https://bit.dev/joshk/jotils/is-object)
+- [is-string](https://bit.dev/joshk/jotils/is-string)
+- [is-undefined](https://bit.dev/joshk/jotils/is-undefined)
+- [is-unique-in-array](https://bit.dev/joshk/jotils/is-unique-in-array)
+- [letter-count](https://bit.dev/joshk/jotils/letter-count)
+- [linear-interpolation](https://bit.dev/joshk/jotils/linear-interpolation)
+- [percentage-calculator](https://bit.dev/joshk/jotils/percentage-calculator)
+- [radians-to-degrees](https://bit.dev/joshk/jotils/radians-to-degrees)
+- [random](https://bit.dev/joshk/jotils/random)
+- [random-between](https://bit.dev/joshk/jotils/random-between)
+- [random-value-from-array](https://bit.dev/joshk/jotils/random-value-from-array)
+- [remove-duplicates-in-array](https://bit.dev/joshk/jotils/remove-duplicates-in-array)
+- [remove-value-from-array](https://bit.dev/joshk/jotils/remove-value-from-array)
+- [shuffle-array](https://bit.dev/joshk/jotils/shuffle-array)
+- [sum-array](https://bit.dev/joshk/jotils/sum-array)
 
-<p align="center">
-  <a href="https://bit.dev/joshk/jotils"><img src="https://i.imagesup.co/images2/59cab3fb276893a41348e3777e62e2822d2c2f29.gif"></a>
-</p>
 
+## Installation
+
+Using [npm](https://www.npmjs.com/package/jotils) to install jotils:  
+
+```bash
+$ npm i --save jotils
+```  
+```js
+const J = require('jotils');
+```
+  
+Using [bit](https://bit.dev/joshk/jotils/letter-count) to install a specific function:  
+set npm regisetry config(one time action)
+```bash 
+npm config set '@bit:registry' https://node.bit.dev
+``` 
 ```bash
 $ npm i @bit/joshk.jotils.letter-count
 ```
 
 ```js
 const { letterCount } = require('@bit/joshk.jotils.letter-count');
-```
-## Installation
-
-Using [npm](https://www.npmjs.com/package/jotils) to install jotils.  
-
-```bash
-$ npm i --save jotils
-```
-## Usage Examples
-
-In Node.js:
-```js
-const J = require('jotils');
 ```
 
 ## Contributing
