@@ -1,6 +1,6 @@
 {
   "name": "jotils",
-  "version": "2.0.5",
+  "version": "2.0.8",
   "main": "build/index.js",
   "private": false,
   "files": [
