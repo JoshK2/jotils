@@ -80,3 +80,6 @@ See example of naming in this folder [folder](https://github.com/JoshK2/jotils/t
 4) Run `npm run build` to generate the build folder folder.
 5) Run `npm run test` to check the functions.
 6) Share with the community by submitting a PR.
+
+## License
+[MIT](https://github.com/JoshK2/jotils/blob/master/LICENSE)
