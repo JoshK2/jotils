@@ -9,7 +9,7 @@ jotils is a JavaScript utility library.
 The library is published to npm as a pacakge, and also exported to a bit as a collection of components.  
 If you want to use a specific function of the project, you can do it from [here](https://bit.dev/joshk/jotils).  
 
-## List of components
+## 🚀 List of components
 Every component have a live demo with docs and tests.
 - [array-diff](https://bit.dev/joshk/jotils/array-diff)
 - [async-for-each](https://bit.dev/joshk/jotils/async-for-each)
@@ -42,7 +42,7 @@ Every component have a live demo with docs and tests.
 - [sum-array](https://bit.dev/joshk/jotils/sum-array)
 
 
-## Installation
+## 💻 Installation and Usage Examples
 
 Using [npm](https://www.npmjs.com/package/jotils) to install jotils:  
 
@@ -66,7 +66,7 @@ $ npm i @bit/joshk.jotils.letter-count
 const { letterCount } = require('@bit/joshk.jotils.letter-count');
 ```
 
-## Contributing
+## 👾⌨️ Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 Please make sure to update tests as appropriate.
 
@@ -81,5 +81,5 @@ See example of naming in this folder [folder](https://github.com/JoshK2/jotils/t
 5) Run `npm run test` to check the functions.
 6) Share with the community by submitting a PR.
 
-## License
+## 📄 License
 [MIT](https://github.com/JoshK2/jotils/blob/master/LICENSE)
