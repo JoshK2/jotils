@@ -29,7 +29,7 @@ const main = () => {
     dirs.forEach(element => {
         exportsText += `export { ${dirNameToFunctionName(element)} } from './${element}';\n`;
     });
-    fs.writeFile(`${componentsDirectorie}/index.js`, exportsText, function (err) {
+    fs.writeFile(`${componentsDirectorie}/index.ts`, exportsText, function (err) {
         if (err) {
             return console.log(err);
         }
