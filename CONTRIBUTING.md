@@ -1,5 +1,10 @@
-**Steps to contribute**
+## 👾🙌 Contributing
+- Pull requests and ⭐ stars are always welcome.
+- For bugs and feature requests, please create an issue.  
+- For major changes, please open an issue first to discuss what you would like to change.
+- Please make sure to update tests as appropriate.
 
+**Steps to contribute**
 1) Fork the project and clone.
 2) Create folder for your function in this [folder](https://github.com/JoshK2/jotils/tree/master/src/components), name the folder and the function file in lower case, and the function with upper case.
 See example of naming in this folder [folder](https://github.com/JoshK2/jotils/tree/master/src/components/letter-count).
