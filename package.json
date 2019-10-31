@@ -24,8 +24,8 @@
   "homepage": "https://bit.dev/joshk/jotils",
   "dependencies": {},
   "scripts": {
-    "build": "rm -rf build && tsc",
-    "test": "ts-mocha -p tsconfig.spec.json src/components/**/test.ts",
+    "build:lib": "rm -rf build && tsc",
+    "test:lib": "ts-mocha -p tsconfig.spec.json src/components/**/test.ts",
     "build:bit": "rm -rf dist && bit build",
     "test:bit": "bit test",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",

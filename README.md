@@ -1,16 +1,22 @@
 # Jotils - JavaScript utility functions library
 [![bit components](https://img.shields.io/badge/dynamic/json.svg?color=6e3991&label=bit%20components&query=payload.totalComponents&url=https%3A%2F%2Fapi.bit.dev%2Fscope%2Fjoshk%2Fjotils)](https://bit.dev/joshk/jotils) [![npm version](https://badge.fury.io/js/jotils.svg)](http://badge.fury.io/js/jotils) 
 [![GitHub stars](https://img.shields.io/github/stars/joshk2/jotils)](https://github.com/JoshK2/jotils/stargazers)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/JoshK2/jotils/master/LICENSE)
 [![Twitter Follow](https://img.shields.io/twitter/follow/joshkuttler)](https://twitter.com/JoshKuttler)
 
 Jotils is a JavaScript utility functions library.  
-The library is published to npm as a pacakge, and also exported to bit.dev as a collection of components, so you can use a specific function of the project without having to install the whole project, you can do it from [here](https://bit.dev/joshk/jotils).  
+The library is published to npm as a pacakge, and also exported to [bit.dev](https://bit.dev) as a collection of components, so you can install a specific function of the project without having to install the whole project, you can do it from [here](https://bit.dev/joshk/jotils).  
 The project has 29 functions for the moment and continues to grow, you can [contribute](CONTRIBUTING.md) to this with pleasure.  
 
 - ✂️Zero dependencies
 - 📦Functions can be installing separately
 - ✅Functions are tested
+
+##  [Live Demo](https://bit.dev/joshk/jotils)
+Browse components and explore their props with [Bit](https://bit.dev/joshk/jotils).    
+[Install components and live demo](https://bit.dev/joshk/jotils)  
+<a href="https://bit.dev/joshk/jotils" target="_blank"><img width="200" height="39" src="https://i.imagesup.co/images2/4a64f008951cd66e56d4f1e0141a27df584a1e94.png"></a>
 
 ## 🚀 List of functions
 Every function have a live demo with docs and tests.
