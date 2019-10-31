@@ -137,7 +137,7 @@ jobs:
 
 workflows:
    version: 2
-   build:lib_and_build:bit:
+   build:lib_and_test:lib___build:bit_and_test:bit:
      jobs:
        - build:lib
        - test:lib

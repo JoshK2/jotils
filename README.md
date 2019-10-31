@@ -1,4 +1,5 @@
 # Jotils - JavaScript utility functions library
+[![CircleCI](https://circleci.com/gh/JoshK2/jotils.svg?style=svg)](https://circleci.com/gh/JoshK2/jotils)
 [![bit components](https://img.shields.io/badge/dynamic/json.svg?color=6e3991&label=bit%20components&query=payload.totalComponents&url=https%3A%2F%2Fapi.bit.dev%2Fscope%2Fjoshk%2Fjotils)](https://bit.dev/joshk/jotils) [![npm version](https://badge.fury.io/js/jotils.svg)](http://badge.fury.io/js/jotils) 
 [![GitHub stars](https://img.shields.io/github/stars/joshk2/jotils)](https://github.com/JoshK2/jotils/stargazers)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
