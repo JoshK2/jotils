@@ -16,7 +16,7 @@
  * import arrayDiff from '@bit/joshk.jotils.array-diff'
  * export default arrayDiff("zxc", "zxc") // => []
  */
-export function arrayDiff(a1: Array<any>, a2: Array<any>): Array<null> {
+export function arrayDiff(a1: Array<string | number>, a2: Array<string | number>): Array<string | number> {
     var a = [],
         diff = []
     for (var i = 0; i < a1.length; i++) {
