@@ -1,6 +1,6 @@
 {
   "name": "jotils",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "main": "build/index.js",
   "private": false,
   "files": [
@@ -24,12 +24,12 @@
   "homepage": "https://bit.dev/joshk/jotils",
   "dependencies": {},
   "scripts": {
-    "build:lib": "rm -rf build && tsc",
+    "build:lib": "rm -rf build && npm run createindexfile && tsc",
     "test:lib": "ts-mocha -p tsconfig.spec.json src/components/**/test.ts",
     "build:bit": "rm -rf dist && bit build",
     "test:bit": "bit test",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "createindexfile": "node index-creator.js & npm run format"
+    "createindexfile": "node index-creator.js && npm run format"
   },
   "devDependencies": {
     "@types/mocha": "^5.2.7",
