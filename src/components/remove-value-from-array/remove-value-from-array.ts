@@ -8,6 +8,9 @@
  * import { removeValueFromArray } from '@bit/joshk.jotils.remove-value-from-array'
  * export default removeValueFromArray([1,2,3], 1) // => [2, 3]
  */
-export function removeValueFromArray(array: Array<number | string | boolean>, value: number | string | boolean): Array<number | string | boolean> {
+export function removeValueFromArray(
+    array: Array<number | string | boolean>,
+    value: number | string | boolean
+): Array<number | string | boolean> {
     return array.filter(e => e != value)
 }

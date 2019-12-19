@@ -8,5 +8,5 @@
  */
 export function formatNumber(number: string): string {
     number = number.toString()
-    return number.replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,")
+    return number.replace(/(\d)(?=(\d\d\d)+(?!\d))/g, '$1,')
 }
