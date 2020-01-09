@@ -101,7 +101,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "joshk.jotils/format-number@0.0.1": {
+    "joshk.jotils/format-number@0.0.2": {
         "files": [
             {
                 "relativePath": "src/components/format-number/format-number.ts",
@@ -586,7 +586,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "joshk.jotils/remove-value-from-array@2.1.2": {
+    "joshk.jotils/remove-value-from-array@2.1.3": {
         "files": [
             {
                 "name": "index.ts",
