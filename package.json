@@ -34,7 +34,7 @@
   "devDependencies": {
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.7.2",
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "prettier": "^1.18.2",
     "ts-mocha": "^6.0.0",
     "ts-node": "^8.3.0",
